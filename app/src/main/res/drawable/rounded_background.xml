@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- Fondo de color gris claro con opacidad -->
+        <solid android:color="#FFFFFF"/> <!-- Fondo blanco o gris muy claro -->
+
+        <!-- Bordes redondeados -->
+        <corners android:radius="24dp"/>
+
+        <!-- Sombra para darle profundidad -->
+        <elevation android:value="4dp"/> <!-- Esto depende de la versión de Android y puede no ser necesario en todas las vistas -->
+    </shape>
+</selector>

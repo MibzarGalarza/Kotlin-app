@@ -1,0 +1,20 @@
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/leaguesFragment">
+
+    <fragment
+        android:id="@+id/leaguesFragment"
+        android:name="com.example.goaltrack.ui.fragments.LeaguesFragment"
+        android:label="LeaguesFragment">
+        <action
+            android:id="@+id/action_leaguesFragment_to_leagueDetailsFragment"
+            app:destination="@id/leagueDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/leagueDetailsFragment"
+        android:name="com.example.goaltrack.ui.fragments.LeagueDetailsFragment"
+        android:label="LeagueDetailsFragment" />
+</navigation>
